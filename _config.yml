@@ -11,3 +11,5 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-remote-theme
+
+theme: jekyll-theme-minimal
