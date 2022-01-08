@@ -1,4 +1,10 @@
-theme: jekyll-theme-minimal
 title: Wei-Cheng Chang
 email: weicheng.cmu@gmail.com
 description: Applied Scientist at Amazon Search
+remote_theme: BDHU/minimalist
+color-scheme: auto
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-remote-theme
