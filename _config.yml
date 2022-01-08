@@ -1,15 +1,6 @@
 title: Wei-Cheng Chang
 email: weicheng.cmu at gmail
 blank_title: true
-favicon: true
 description: ""
 show_downloads: false
-remote_theme: BDHU/minimalist
-color-scheme: auto
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-  - jekyll-remote-theme
-
 theme: jekyll-theme-minimal
