@@ -8,3 +8,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-remote-theme
+
+social-network-links:
+    github: daattali
+    google-scholar: https://scholar.google.com/citations?user=nxBGx-0AAAAJ&hl=en
