@@ -62,7 +62,7 @@ under supervision of <a href="https://www.csie.ntu.edu.tw/~cjlin/">Prof. Chih-Je
   <a href="https://github.com/laiguokun/LSTNet">[code]</a>
   
 - <a href="https://arxiv.org/abs/1705.08584">MMD GAN: Towards Deeper Understanding of Moment Matching Network</a>
-  <br>Chun-Liang Li*, Wei-Cheng Chang*, Yu Cheng, Yiming Yang, Barnabás Póczos
+  <br>Chun-Liang Li * , Wei-Cheng Chang * , Yu Cheng, Yiming Yang, Barnabás Póczos
   <br>In <i>Advances in Neural Information Processing Systems (NeurIPS), 2017</i>.
   <a href="https://github.com/OctoberChang/MMD-GAN">[code]</a>
   
@@ -76,7 +76,7 @@ under supervision of <a href="https://www.csie.ntu.edu.tw/~cjlin/">Prof. Chih-Je
   <br>In <i>ACM SIGIR Conference on Research & Development in Information Retrieval (SIGIR), 2017</i>.
 
 - <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14781">Cross-domain Kernel Induction for Transfer Learning</a>
-  <br>Wei-Cheng Chang*, Yuexin Wu*, Hanxiao Liu, Yiming Yang
+  <br>Wei-Cheng Chang * , Yuexin Wu * , Hanxiao Liu, Yiming Yang
   <br>In <i>AAAI Conference on Artificial Intelligence (AAAI), 2017</i>.
   <a href="https://github.com/OctoberChang/KerTL">[code]</a>
   
