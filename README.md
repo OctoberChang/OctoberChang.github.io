@@ -9,20 +9,23 @@ Prior to CMU, I got my B.S. from <a href="https://www.ntu.edu.tw/english/">Natio
 under supervision of <a href="https://www.csie.ntu.edu.tw/~cjlin/">Prof. Chih-Jen Lin</a>.
 
 
-## Under Reviews
+ 
+## Publications
+- <a href="https://arxiv.org/abs/2112.08652">Extreme Zero-Shot Learning for Extreme Text Classification</a>
+  <br>Yuanhao Xiong, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu and Inderjit Dhillon
+  <br>In <i>To appear in NAACL, 2022</i>.
+  <br><a href="https://github.com/amzn/pecos/tree/mainline/examples/MACLR">[code]</a>
+
+- <a href="#">Relevance under the Iceberg: Reasonable Prediction for Extreme Multi-label Classification</a>
+  <br>Jyun-Yu Jiang, Wei-Cheng Chang, Jiong Zhang, Cho-Jui Hsieh, Hsiang-Fu Yu
+  <br>In <i>To appear in SIGLR, 2022</i>.
+  
 - <a href="https://arxiv.org/abs/2010.05878">PECOS: Prediction for Enormous and Correlated Output Spaces</a>
   <br>Hsiang-Fu Yu, Kai Zhong, Jiong Zhang, Wei-Cheng Chang, and Inderjit Dhillon
-  <br>In <i>Preprint, 2022</i>.
+  <br>In <i>Journal of Machine Learning Research (JMLR), 2022</i>.
   <br><a href="https://github.com/amzn/pecos">[code]</a>
   <a href="https://www.amazon.science/blog/amazon-open-sources-library-for-prediction-over-large-output-spaces">[blog]</a>
   
-- <a href="https://arxiv.org/abs/2112.08652">Extreme Zero-Shot Learning for Extreme Text Classification</a>
-  <br>Yuanhao Xiong, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu and Inderjit Dhillon
-  <br>In <i>Preprint, 2021</i>.
-  <br><a href="https://github.com/amzn/pecos/tree/mainline/examples/MACLR">[code]</a>
-
-  
-## Publications
 - <a href="https://arxiv.org/abs/2111.00064">Node Feature Extraction by Self-Supervised Multi-scale Neighborhood Prediction</a>
   <br>Eli Chien, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu, Jiong Zhang, Olgica Milenkovic and Inderjit Dhillon
   <br>In <i>International Conference on Learning Representations (ICLR), 2022</i>.
