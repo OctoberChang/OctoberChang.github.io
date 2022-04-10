@@ -1,104 +1,31 @@
-## About me
+A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-I am an applied scientist at Amazon Search, 
-working on scalable machine learning algorithms for large-output space problems.
+I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
-I received my Ph.D. from the School of Computer Science at <a href="https://www.cs.cmu.edu/">CMU</a>
-under supervision of <a href="http://www.cs.cmu.edu/~yiming/">Prof. Yiming Yang</a>.
-Prior to CMU, I got my B.S. from <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>
-under supervision of <a href="https://www.csie.ntu.edu.tw/~cjlin/">Prof. Chih-Jen Lin</a>.
+### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
+# Instructions
 
- 
-## Publications
-- <a href="https://arxiv.org/abs/2112.08652">Extreme Zero-Shot Learning for Extreme Text Classification</a>
-  <br>Yuanhao Xiong, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu and Inderjit Dhillon
-  <br>In <i>To appear in NAACL, 2022</i>.
-  <br><a href="https://github.com/amzn/pecos/tree/mainline/examples/MACLR">[code]</a>
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-- <a href="#">Relevance under the Iceberg: Reasonable Prediction for Extreme Multi-label Classification</a>
-  <br>Jyun-Yu Jiang, Wei-Cheng Chang, Jiong Zhang, Cho-Jui Hsieh, Hsiang-Fu Yu
-  <br>In <i>To appear in SIGLR, 2022</i>.
-  
-- <a href="https://arxiv.org/abs/2010.05878">PECOS: Prediction for Enormous and Correlated Output Spaces</a>
-  <br>Hsiang-Fu Yu, Kai Zhong, Jiong Zhang, Wei-Cheng Chang, and Inderjit Dhillon
-  <br>In <i>Journal of Machine Learning Research (JMLR), 2022</i>.
-  <br><a href="https://github.com/amzn/pecos">[code]</a>
-  <a href="https://www.amazon.science/blog/amazon-open-sources-library-for-prediction-over-large-output-spaces">[blog]</a>
-  
-- <a href="https://arxiv.org/abs/2111.00064">Node Feature Extraction by Self-Supervised Multi-scale Neighborhood Prediction</a>
-  <br>Eli Chien, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu, Jiong Zhang, Olgica Milenkovic and Inderjit Dhillon
-  <br>In <i>International Conference on Learning Representations (ICLR), 2022</i>.
-  <br><a href="https://github.com/amzn/pecos/tree/mainline/examples/giant-xrt">[code]</a>
-  <span style="color: red;">(1st place on three OGB leaderboards as of 2021/11/08)</span> 
-  
-- <a href="https://arxiv.org/abs/2110.00685">Fast Multi-Resolution Transformer Fine-tuning for Extreme Multi-label Text Classification</a>
-  <br>Jiong Zhang, Wei-Cheng Chang, Hsiang-Fu Yu and Inderjit Dhillon
-  <br>In <i>Advances in Neural Information Processing Systems (NeurIPS), 2021</i>.
-  <br><a href="https://github.com/amzn/pecos/tree/mainline/examples/xr-transformer-neurips21">[code]</a>
-  <a href="https://www.amazon.science/blog/neurips-2021-amazon-pushes-the-boundaries-of-extreme-multilabel-classification">[blog]</a>
+See more info at https://academicpages.github.io/
 
-- <a href="https://arxiv.org/abs/2106.12751">Label Disentanglement in Partition-based Extreme Multilabel Classification</a>
-  <br>Xuanqing Liu, Wei-Cheng Chang, Hsiang-Fu Yu, Cho-Jui Hsieh, and Inderjit Dhillon
-  <br>In <i>Advances in Neural Information Processing Systems (NeurIPS), 2021</i>.
-  <br><a href="https://github.com/amzn/pecos/tree/mainline/examples/overlap-xmc">[code]</a>
-  <a href="https://www.amazon.science/blog/neurips-2021-amazon-pushes-the-boundaries-of-extreme-multilabel-classification">[blog]</a>
-  
-- <a href="https://arxiv.org/abs/2106.12657">Extreme Multi-Label Learning For Semantic Matching In Product Search</a>
-  <br>Wei-Cheng Chang, Daniel Jiang, Hsiang-Fu Yu, Choon Hui Teo, Jiong Zhang, Kai Zhong, Kedarnath Kolluri, Qie Hu, Nikhil Shandilya, Vyacheslav Ievgrafov, Japinder Singh, Inderjit S Dhillon
-  <br>In <i>ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD), 2021</i>.
-  <br><a href="https://github.com/amzn/pecos">[code]</a>
-  <a href="https://www.amazon.science/blog/applying-pecos-to-product-retrieval-and-text-autocompletion">[blog]</a>
-  
-- <a href="https://arxiv.org/abs/1905.02331">Taming pretrained transformers for extreme multi-label text classification</a>
-  <br>Wei-Cheng Chang, Hsiang-Fu Yu, Kai Zhong, Yiming Yang and Inderjit Dhillon
-  <br>In <i>ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD), 2020</i>.
-  <br><a href="https://github.com/OctoberChang/X-Transformer">[code]</a>
-  
-- <a href="https://arxiv.org/abs/2002.03932">Pre-training Tasks for Embedding-based Large-scale Retrieval</a>
-  <br>Wei-Cheng Chang, Felix X. Yu, Yin-Wen Chang, Yiming Yang, Sanjiv Kumar
-  <br>In <i>International Conference on Learning Representations (ICLR), 2020</i>.
+## To run locally (not on GitHub Pages, to serve on your own computer)
 
-- <a href="https://arxiv.org/abs/1902.10214">Implicit Kernel Learning</a>
-  <br>Chun-Liang Li, Wei-Cheng Chang, Youssef Mroueh, Yiming Yang, Barnabás Póczos
-  <br>In <i>International Conference on Artificial Intelligence and Statistic (AISTATS), 2019</i>.
+1. Clone the repository and made updates as detailed above
+1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
+1. Run `bundle clean` to clean up the directory (no need to run `--force`)
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-- <a href="https://arxiv.org/abs/1901.06077">Kernel Change-point Detection with Auxiliary Deep Generative Models</a>
-  <br>Wei-Cheng Chang, Chun-Liang Li, Yiming Yang, Barnabás Póczos
-  <br>In <i>International Conference on Learning Representations (ICLR), 2019</i>.
-  <br><a href="https://github.com/OctoberChang/klcpd_code">[code]</a>
-  
-- <a href="https://arxiv.org/abs/1703.07015">Modeling Long-and Short-Term Temporal Patterns with Deep Neural Networks</a>
-  <br>Guokun Lai, Wei-Cheng Chang, Yiming Yang, Hanxiao Liu
-  <br>In <i>ACM SIGIR Conference on Research & Development in Information Retrieval (SIGIR), 2018</i>.
-  <br><a href="https://github.com/laiguokun/LSTNet">[code]</a>
-  
-- <a href="https://arxiv.org/abs/1705.08584">MMD GAN: Towards Deeper Understanding of Moment Matching Network</a>
-  <br>Chun-Liang Li * , Wei-Cheng Chang * , Yu Cheng, Yiming Yang, Barnabás Póczos
-  <br>In <i>Advances in Neural Information Processing Systems (NeurIPS), 2017</i>.
-  <br><a href="https://github.com/OctoberChang/MMD-GAN">[code]</a>
-  
-- <a href="https://arxiv.org/abs/1705.08525">Data-driven Random Fourier Features using Stein Effect</a>
-  <br>Wei-Cheng Chang, Chun-Liang Li, Yiming Yang, Barnabás Póczos
-  <br>In <i>International Joint Conference on Artificial Intelligence (IJCAI), 2017</i>.
-  <br><span style="color: red;">(best student paper runner up)</span>
-  
-- <a href="https://dl.acm.org/doi/10.1145/3077136.3080834">Deep Learning for Extreme Multi-label Text Classification</a>
-  <br>Jingzhou Liu, Wei-Cheng Chang, Yuexin Wu, Yiming Yang
-  <br>In <i>ACM SIGIR Conference on Research & Development in Information Retrieval (SIGIR), 2017</i>.
+# Changelog -- bugfixes and enhancements
 
-- <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14781">Cross-domain Kernel Induction for Transfer Learning</a>
-  <br>Wei-Cheng Chang * , Yuexin Wu * , Hanxiao Liu, Yiming Yang
-  <br>In <i>AAAI Conference on Artificial Intelligence (AAAI), 2017</i>.
-  <br><a href="https://github.com/OctoberChang/KerTL">[code]</a>
-  
-- <a href="https://jmlr.org/papers/volume16/li15b/li15b.pdf">Combination of Feature Engineering and Ranking Models for Paper-Author Identification in KDD Cup 2013</a>
-  <br>C.-L. Li, Y.-C. Su, T.-W. Lin, C.-H. Tsai, W.-C. Chang, K.-H. Huang, T.-M. Kuo, S.-W. Lin, Y.-S. Lin, Y.-C. Lu, C.-P. Yang, C.-X. Chang, W.-S. Chin, Y.-C. Juan, H.-Y. Tung, J.-P. Wang, C.-K. Wei, F. Wu, T.-C. Yin, T. Yu, Y. Zhuang, S.-D. Lin, H.-T. Lin and C.-J. Lin
-  <br>In <i>Journal of Machine Learning Research (JMLR), 2015</i>.
-  <br>(Extended first-place winner report of KDD Cup 2013 track 1)
-  
-- <a href="https://jmlr.org/papers/volume15/chin14a/chin14a.pdf">Effective String Processing and Matching for Author Disambiguation</a>
-  <br>W.-S. Chin, Y.-C. Juan, Y. Zhuang, F. Wu, H.-Y. Tung, T. Yu, J.-P. Wang, C.-X. Chang, C.-P. Yang, W.-C. Chang, K.-H. Huang, T.-M. Kuo, S.-W. Lin, Y.-S. Lin, Y.-C. Lu, Y.-C. Su, C.-K. Wei, T.-C. Yin, C.-L. Li, T.-W. Lin, C.-H. Tsai, S.-D. Lin, H.-T. Lin and C.-J. Lin
-  <br>In <i>Journal of Machine Learning Research (JMLR), 2014</i>.
-  <br>(Extended first-place winner report of KDD Cup 2013 track 2) 
-  
+There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+
+To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
