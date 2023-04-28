@@ -24,20 +24,34 @@ My research covers extreme multi-label classification, large-scale retrieval, an
 
 
 ## Publications
+**PINA: Leveraging Side Information in eXtreme Multilabel Classification via Predicted Instance Neighborhood Aggregation**
+<br>Eli Chien, Jiong Zhang, Jyun-Yu Jiang, Wei-Cheng Chang, Cho-Jui Hsieh, Olgica Milenkovic and Hsiang-Fu Yu
+<br>To appear in ICML 2023.
+
+**Uncertainty in Extreme Multi-label Classification**
+<br>Jyun-Yu Jiang, Wei-Cheng Chang, Jiong Zhang, Cho-Jui Hsieh and Hsiang-Fu Yu
+<br>To appear in SIGIR 2023.
+
+**FINGER: Fast Inference for Graph-based Approximate Nearest Neighbor Search**
+<br>Patrick H. Chen, Wei-Cheng Chang, Jyun-Yu Jiang, Hsiang-Fu Yu, Inderjit S. Dhillon and Cho-Jui Hsieh
+<br>To appear in WWW 2023.
+[[pdf]](https://www.amazon.science/publications/finger-fast-inference-for-graph-based-approximate-nearest-neighbor-search)
+
 **Extreme Zero-Shot Learning for Extreme Text Classification**
 <br>Yuanhao Xiong, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu and Inderjit Dhillon
-<br>To appear in NAACL, 2022.
-[[arxiv]](https://arxiv.org/abs/2112.08652)
+<br>NAACL 2022.
+[[pdf]](https://aclanthology.org/2022.naacl-main.399/)
 [[code]](https://github.com/amzn/pecos/tree/mainline/examples/MACLR)
 
 **Relevance under the Iceberg: Reasonable Prediction for Extreme Multi-label Classification**
 <br>Jyun-Yu Jiang, Wei-Cheng Chang, Jiong Zhang, Cho-Jui Hsieh, Hsiang-Fu Yu
-<br>To appear in SIGIR, 2022.
+<br>SIGIR 2022.
+[[pdf]](https://dl.acm.org/doi/abs/10.1145/3477495.3531767)
 
 **PECOS: Prediction for Enormous and Correlated Output Spaces**
 <br>Hsiang-Fu Yu, Kai Zhong, Jiong Zhang, Wei-Cheng Chang, and Inderjit Dhillon
 <br>JMLR 2022.
-[[arxiv]](https://arxiv.org/abs/2010.05878)
+[[pdf]](https://www.jmlr.org/papers/volume23/21-0085/21-0085.pdf)
 [[code]](https://github.com/amzn/pecos)
 [[blog]](https://www.amazon.science/blog/amazon-open-sources-library-for-prediction-over-large-output-spaces)
 
