@@ -24,18 +24,32 @@ My research covers extreme multi-label classification, large-scale retrieval, an
 
 
 ## Publications
+
+**PEFA: Parameter-Free Adapters for Large-scale Embedding-based Retrieval Models**
+<br>Wei-Cheng Chang, Jyun-Yu Jiang, Jiong Zhang, Mutasem Al-Darabsah, Choon Hui Teo, Cho-Jui Hsieh, Hsiang-Fu Yu, S.V.N. Vishwanathan
+<br> To appear in WSDM 2024.
+
+**Build faster with less: A journey to accelerate sparse model building for semantic matching in product search**
+<br>Jiong Zhang, Yau-Shian Wang, Wei-Cheng Chang, Weilin Li, Jyun-Yu Jiang, Cho-Jui Hsieh, Hsiang-Fu Yu
+<br>CIKM 2023.
+[[pdf]](https://dl.acm.org/doi/abs/10.1145/3583780.3614661)
+
 **PINA: Leveraging Side Information in eXtreme Multilabel Classification via Predicted Instance Neighborhood Aggregation**
 <br>Eli Chien, Jiong Zhang, Jyun-Yu Jiang, Wei-Cheng Chang, Cho-Jui Hsieh, Olgica Milenkovic and Hsiang-Fu Yu
-<br>To appear in ICML 2023.
+<br>ICML 2023.
+[[pdf]](https://proceedings.mlr.press/v202/chien23a/chien23a.pdf)
+[[code]](https://github.com/amzn/pecos/tree/mainline/examples/pina)
 
 **Uncertainty in Extreme Multi-label Classification**
 <br>Jyun-Yu Jiang, Wei-Cheng Chang, Jiong Zhang, Cho-Jui Hsieh and Hsiang-Fu Yu
-<br>To appear in SIGIR 2023.
+<br>SIGIR 2023.
+[[pdf]](https://dl.acm.org/doi/10.1145/3539618.3591780)
 
 **FINGER: Fast Inference for Graph-based Approximate Nearest Neighbor Search**
 <br>Patrick H. Chen, Wei-Cheng Chang, Jyun-Yu Jiang, Hsiang-Fu Yu, Inderjit S. Dhillon and Cho-Jui Hsieh
-<br>To appear in WWW 2023.
-[[pdf]](https://www.amazon.science/publications/finger-fast-inference-for-graph-based-approximate-nearest-neighbor-search)
+<br>The Web Conference (WWW) 2023.
+[[pdf]](https://dl.acm.org/doi/10.1145/3543507.3583318)
+[[code]](https://github.com/Patrick-H-Chen/FINGER)
 
 **Extreme Zero-Shot Learning for Extreme Text Classification**
 <br>Yuanhao Xiong, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu and Inderjit Dhillon
