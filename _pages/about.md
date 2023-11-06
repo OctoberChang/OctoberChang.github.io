@@ -30,7 +30,7 @@ My research covers extreme multi-label classification, large-scale retrieval, an
 <br> To appear in WSDM 2024.
 
 **Build faster with less: A journey to accelerate sparse model building for semantic matching in product search**
-<br>Jiong Zhang, Yau-Shian Wang, Wei-Cheng Chang, Weilin Li, Jyun-Yu Jiang, Cho-Jui Hsieh, Hsiang-Fu Yu
+<br>Jiong Zhang, Yau-Shian Wang, Wei-Cheng Chang, Wei Li, Jyun-Yu Jiang, Cho-Jui Hsieh, Hsiang-Fu Yu
 <br>CIKM 2023.
 [[pdf]](https://dl.acm.org/doi/abs/10.1145/3583780.3614661)
 
