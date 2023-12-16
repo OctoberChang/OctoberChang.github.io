@@ -26,8 +26,10 @@ My research covers extreme multi-label classification, large-scale retrieval, an
 ## Publications
 
 **PEFA: Parameter-Free Adapters for Large-scale Embedding-based Retrieval Models**
-<br>Wei-Cheng Chang, Jyun-Yu Jiang, Jiong Zhang, Mutasem Al-Darabsah, Choon Hui Teo, Cho-Jui Hsieh, Hsiang-Fu Yu, S.V.N. Vishwanathan
+<br>Wei-Cheng Chang, Jyun-Yu Jiang, Jiong Zhang, Mutasem Al-Darabsah, Choon Hui Teo, Cho-Jui Hsieh, Hsiang-Fu Yu, S. V. N. Vishwanathan
 <br> To appear in WSDM 2024.
+[[pdf]](https://arxiv.org/abs/2312.02429)
+[[code]](https://github.com/amzn/pecos/tree/mainline/examples/pefa-wsdm24)
 
 **Build faster with less: A journey to accelerate sparse model building for semantic matching in product search**
 <br>Jiong Zhang, Yau-Shian Wang, Wei-Cheng Chang, Wei Li, Jyun-Yu Jiang, Cho-Jui Hsieh, Hsiang-Fu Yu
