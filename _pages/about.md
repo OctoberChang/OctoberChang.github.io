@@ -25,10 +25,20 @@ My research covers extreme multi-label classification, large-scale retrieval, an
 
 ## Publications
 
+**MinPrompt: Graph-based Minimal Prompt Data Augmentation for Few-shot Question Answering**
+<br>Xiusi Chen, Jyun-Yu Jiang, Wei-Cheng Chang, Cho-Jui Hsieh, Hsiang-Fu Yu, Wei Wang
+<br> To appear in ACL 2024.
+[[pdf]](https://arxiv.org/pdf/2310.05007)
+
+**Entity Disambiguation with Extreme Multi-label Ranking**
+<br>Jyun-Yu Jiang, Wei-Cheng Chang, Jiong Zhang, Cho-Jui Hsieh, Hsiang-Fu Yu
+<br> The Web Conference (WWW) 2024.
+[[pdf]](https://dl.acm.org/doi/10.1145/3589334.3645498)
+
 **PEFA: Parameter-Free Adapters for Large-scale Embedding-based Retrieval Models**
 <br>Wei-Cheng Chang, Jyun-Yu Jiang, Jiong Zhang, Mutasem Al-Darabsah, Choon Hui Teo, Cho-Jui Hsieh, Hsiang-Fu Yu, S. V. N. Vishwanathan
-<br> To appear in WSDM 2024.
-[[pdf]](https://arxiv.org/abs/2312.02429)
+<br> WSDM 2024.
+[[pdf]](https://dl.acm.org/doi/10.1145/3616855.3635791)
 [[code]](https://github.com/amzn/pecos/tree/mainline/examples/pefa-wsdm24)
 
 **Build faster with less: A journey to accelerate sparse model building for semantic matching in product search**
